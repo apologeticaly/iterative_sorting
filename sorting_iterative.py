@@ -19,7 +19,6 @@ def selection_sort(input):
         for j in range(len(input) - 1):
             if input[min] <= input[j]:
                 input[min], input[j] = input[j], input[min]
-
     return input
 
 def insertion_sort(input): 
